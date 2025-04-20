@@ -5,9 +5,9 @@ type=simple
 
 for ordering in random incdeg decdeg inorder
 do
-  for n in {2..8}
+  for n in {2..6}
   do
-    src_folder=/home/matthew/workspace/graphs-collection/src/Small/$n
+    src_folder=/home/matthew/1_Project/Mathematics/GraphTheory/small-graph-colouring/graphs/$n
     x=${orders[$n]}
     for i in `seq 1 $x`;\
        do\
